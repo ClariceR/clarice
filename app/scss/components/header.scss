@@ -1,5 +1,39 @@
 @use '../util/' as u;
 
 .header {
-    border: u.rem(2) solid var(--rusty);
+    border: u.rem(1) solid lime;
+}
+
+.header__section {
+    // border: u.rem(2) solid pink;
+    margin-top: u.rem(20);
+    width: 90vw;
+}
+
+.logo-icon {
+    fill: red;
+    width: u.rem(16);
+}
+
+.nav__list--open {
+    visibility: visible;
+    background-color: var(--peach);
+    transform: translateY(0);
+    transition: all .375s ease-in-out;
+    opacity: 0.85;
+}
+
+.nav__list {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    padding: u.rem(50) u.rem(25);
+}
+
+.nav__item {
+    padding: u.rem(20) 0;
 }

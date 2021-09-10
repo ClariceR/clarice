@@ -19,9 +19,32 @@ body {
 a,
 a:visited,
 a:active {
+  color: var(--blackberry);
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--pinkGuava);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.upper {
+  text-transform: uppercase;
 }
 
 .rounded-corners {
   border-radius: 50px;
 }
+
+
