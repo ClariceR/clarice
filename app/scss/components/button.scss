@@ -1,0 +1,5 @@
+@use '../util/' as u;
+
+.button {
+    padding: u.rem(10);
+}

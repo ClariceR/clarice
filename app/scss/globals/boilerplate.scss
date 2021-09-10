@@ -1,21 +1,27 @@
 html {
-    font-size: 100%;
-    box-sizing: border-box;
+  font-size: 100%;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    margin: 0;
-    background-color: var(--petal);
-    color: var(--blackberry);
-    font-family: var(--fontBody);
+  margin: 0;
+  background-color: var(--petal);
+  color: var(--blackberry);
+  font-family: var(--fontBody);
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
 }
 
 .rounded-corners {
-    border-radius: 50px;
+  border-radius: 50px;
 }

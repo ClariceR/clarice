@@ -1,0 +1,5 @@
+@use '../util/' as u;
+
+.header {
+    border: u.rem(2) solid var(--rusty);
+}
