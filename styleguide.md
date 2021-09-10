@@ -17,6 +17,41 @@ The designs were created to the following widths:
 - Peach: hsl(1, 87%, 91%)
 - Petal: hsl(43, 100%, 99%)
 
+### Light and Dark Mode
+
+- Peach:
+    Button Text
+
+- Pink Guava:
+    Logo Icon
+    Button gradient start
+
+- Rusty:
+    Button gradient end
+
+### Light Mode
+
+- Petal:
+    Background
+    Button Text
+
+- Blackberry:
+    Text
+    Border
+    Icons
+    Background for Images
+
+### Dark Mode
+
+- Petal:
+    Text
+    Border
+    Icons
+    Background for Images
+
+- Blackberry:
+    Background
+
 ## Typography
 
 ### Heading
@@ -35,3 +70,4 @@ The designs were created to the following widths:
 - Weights: 800
 
 - Body Copy Family: [Montserrat] (https://fonts.google.com/specimen/Montserrat)
+- Weights: 400
