@@ -16,6 +16,11 @@ body {
   font-family: var(--fontBody);
 }
 
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+}
+
 a,
 a:visited,
 a:active {

@@ -25,7 +25,7 @@
     <title>Clarice</title>
   </head>
   <body>
-    <div class="app">
+    <div class="app grid">
       <header>
         <div class="header__container grid">
           <div class="header__section flex flex--apart flex--bottom">
@@ -63,7 +63,7 @@
             </nav>
             <!-- Nav menu for Desktop -->
             <nav class="header__menu">
-              <ul class="flex upper nav__items">
+              <ul class="flex upper nav__items" role="list">
                 <li class="nav__item"><a href="#projects">Projects</a></li>
                 <li class="nav__item"><a href="#about">About</a></li>
                 <li class="nav__item"><a href="#contact">Contact</a></li>
@@ -78,8 +78,15 @@
         </div>
       </header>
       <main>
-        <div class="hero__wrapper grid">
-          <img class="hero-icon" src="./assets/heroIcon.png" alt="Pixel Art profile avatar showing a person wearing an orange top and waving hello">
+        <div class="landing__wrapper grid">
+          <img class="landing-icon" src="./assets/heroIcon.png" alt="Pixel Art profile avatar showing a person wearing an orange top and waving hello">
+          <section class="landing__text">
+            <h1 class="landing__text--title">Hi, I'm Clarice</h1>
+            <p class="landing__text--body">
+              I build websites and web apps with semantic HTML and best practices CSS and JavaScript, ensuring it’s user friendly and accessible for end-users while maintainable for other devs. 
+            </p>
+            <button class="btn btn-talk upper">Let's Talk</button>
+          </section>
         </div>
       </main>
     </div>
