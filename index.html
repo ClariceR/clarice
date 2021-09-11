@@ -28,13 +28,15 @@
     <div class="app">
       <header>
         <div class="header__container grid">
-          <div class="header__section">
+          <div class="header__section grid grid--menu">
             <div class="header__logo">
               <a href="/"><object class="logo-icon" data="./assets/C-logo.svg" type="image/svg+xml"></object></a>
             </div>
-            <nav class="header__menu">
-              <div class="nav-container">
-                <ul class="nav__list nav__list--open grid upper" role="list">
+            <!-- Nav Menu for Mobile -->
+            <nav class="header__menu--mobile">
+              <!-- Menu only visible on mobile when open -->
+              <div class="nav__container grid">
+                <ul class="nav__list grid upper" role="list">
                   <div class="nav__items">
                     <li class="nav__item"><a href="/">Home</a></li>
                     <li class="nav__item"><a href="#projects">Projects</a></li>
@@ -44,6 +46,14 @@
                   </div>
                 </ul>
               </div>
+              <div class="mobile__menu-icon grid grid-right hide">
+                  <span class=" line longer-line"></span>
+                  <span class="line"></span>
+                </div>
+            </nav>
+            <!-- Nav menu for desktop -->
+            <nav class="header__menu">
+              <ul></ul>
             </nav>
           </div>
         </div>

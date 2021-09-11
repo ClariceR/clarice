@@ -39,12 +39,25 @@ ul {
     justify-content: center;
 }
 
+.grid-right {
+  justify-content: right;
+}
+
+.grid--menu {
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+}
+
 .upper {
   text-transform: uppercase;
 }
 
 .rounded-corners {
   border-radius: 50px;
+}
+
+.hide {
+  visibility: hidden;
 }
 
 
