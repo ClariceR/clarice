@@ -44,8 +44,33 @@ ul {
 }
 
 .grid--menu {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
+  align-content: end;
+}
+
+.grid--nav {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--apart {
+  justify-content: space-between;
+}
+
+.flex--center {
+  align-items: center;
+}
+
+.flex--bottom {
+  align-items: flex-end;
+}
+
+.flex--baseline {
+  align-items: baseline;
 }
 
 .upper {
@@ -57,7 +82,7 @@ ul {
 }
 
 .hide {
-  visibility: hidden;
+  display: none;
 }
 
 
