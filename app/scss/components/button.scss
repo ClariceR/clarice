@@ -26,7 +26,11 @@ button:-moz-focusring {
   font-size: u.rem(12);
   border: 0;
   border-radius: u.rem(50);
-  background: linear-gradient(90deg, var(--brightOrange) 0%, var(--brightPink) 100%);
+  background: linear-gradient(
+    90deg,
+    var(--brightOrange) 0%,
+    var(--brightPink) 100%
+  );
   color: var(--petal);
   line-height: 1.2;
   letter-spacing: 1px;
@@ -38,5 +42,11 @@ button:-moz-focusring {
 }
 
 .btn-talk {
-    margin-top: u.rem(20);
+  margin-top: u.rem(20);
+}
+
+.btn-view {
+  justify-self: center;
+  margin-top: u.rem(20);
+  margin-bottom: u.rem(20);
 }

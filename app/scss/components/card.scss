@@ -1,5 +1,40 @@
 @use '../util/' as u;
 
+.projects-list__title {
+    text-align: center;
+}
+
 .card {
-    border: u.rem(2) solid var(--blackberry);
+    // border: u.rem(1) solid var(--blackberry);
+    width: 90vw;
+    border-radius: u.rem(20);
+    background-color: var(--peach);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.card__half {
+    height: u.rem(280);
+    overflow: hidden;
+}
+
+.card__image {
+    width: 100%;
+}
+
+.card-text__wrapper {
+    padding: u.rem(10) u.rem(20);
+    line-height: 1.4;
+    text-align: center;
+    height: 100%;
+}
+
+.card__text--body {
+    font-size: u.rem(12);
+    line-height: 1.6;
+}
+
+.card__text--link {
+    font-size: u.rem(12);
+    display: block;
 }

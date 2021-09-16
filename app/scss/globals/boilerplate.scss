@@ -16,8 +16,10 @@ body {
   font-family: var(--fontBody);
 }
 
-h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
   font-weight: 800;
 }
 
@@ -38,10 +40,14 @@ ul {
   text-align: center;
 }
 
+.grid--only {
+  display: grid;
+}
+
 .grid {
-    display: grid;
-    align-items: center;
-    justify-content: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
 
 .grid-right {
@@ -89,5 +95,3 @@ ul {
 .hide {
   display: none;
 }
-
-
