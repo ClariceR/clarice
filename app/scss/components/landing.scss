@@ -1,13 +1,12 @@
 @use '../util/' as u;
 
 .landing__wrapper {
-    // border: 1px solid purple;
-    width: 90vw;
+    width: 100vw;
 }
 
 .landing-icon {
     // border: 1px solid red;
-    margin-top: u.rem(50);
+    margin-top: u.rem(60);
     width: 50vw;
     align-self: center;
     justify-self: center;
@@ -16,6 +15,8 @@
 
 .landing__text {
     text-align: center;
+    width: 100vw;
+    justify-self: center;
 }
 
 .landing__text--title {
