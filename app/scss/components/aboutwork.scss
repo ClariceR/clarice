@@ -1,0 +1,37 @@
+@use '../util' as u;
+
+.about-work__bkg {
+    background-image: url('../../../assets/whatido-bkg.svg');
+    background-position: 35% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(4);
+    width: 100vw;
+    height: u.rem(800);
+}
+
+.about-work__text {
+    width: 100vw;
+    text-align: center;
+    padding-top: u.rem(110);
+}
+
+.about-work__text--title {
+    margin-bottom: u.rem(40);
+}
+
+.work-icon {
+    justify-self: center;
+    transform: translateX(10%);
+    width: u.rem(105);
+}
+
+.about-work__text--subtitle{
+    margin-bottom: u.rem(12);
+}
+
+.about-work__text--body {
+    font-size: u.rem(12);
+    line-height: 1.6;
+    padding: 0 u.rem(40) u.rem(40) u.rem(40);
+}

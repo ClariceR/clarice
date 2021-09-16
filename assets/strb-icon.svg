@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="103" viewBox="0 0 125 103">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_19" data-name="Ellipse 19" cx="48.5" cy="48.5" r="48.5" transform="translate(0 -0.025)" fill="#2d2a31"/>
+    </clipPath>
+    <pattern id="pattern" width="1" height="1" viewBox="4.75 0 95.499 95.499">
+      <image preserveAspectRatio="none" width="105" height="105" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAACgCAYAAACLz2ctAAAAAXNSR0IArs4c6QAAA2RJREFUeJzt3c+LVWUcx/Ez9sMUS9CLCBNTQdQmaKGtcudGkKBAKmgbtG7Rpj8g2rVqEQVt05U73ThBoBsdFVwIxRSJA0PdgX7INI0xt79A+lRHPhd9vdYPzzl35s2zuF/OPcMAAAAAAAAAAAAAAAAAAAAAAAAA82KhfQP/ZDabxUuTRTt3L0Sfeddjx9MLR/stLMz9n7piV/sGeLgJkCoBUiVAqgRIlQCpEiBVAqRKgFQ92r6BsaQTjp2tD8MJx0fpxCTa7bO117PLjuy9xbOV66acgFQJkCoBUiVAqgRIlQCpEiBVAqRKgFTN/YMKYz8TsnLrdPSZjyy9le33+1fRfjfOfZksG7aP7Y2uu+/jaXTd3Rc3o+ueuno1Wjc2JyBVAqRKgFQJkCoBUiVAqgRIlQCpEiBVtWdC0mckPr/xabTuh7W90WRgefV6NGl495Wnov1mezaSZcMsnHAcfO1WtN8QTn6GOZ92OQGpEiBVAqRKgFQJkCoBUiVAqgRIlQCpav46VvRN/vdbl6Jv8r9enYw6Gfji8vlos8OTrWjd+nQpWvfBEE9CHghOQKoESJUAqRIgVQKkSoBUCZAqAVIlQKqak5BoIvHc4mY04bg52Yr2W58+Ef/cVrjfqM9crJxcivZ76ZdptF/661gtTkCqBEiVAKkSIFUCpEqAVAmQKgFSJUCq5v6N6ddu7m/9ulN63Wiycjic1Dz7RrbfnWES7feON6bDvQmQKgFSJUCqBEiVAKkSIFUCpEqAVNXeIfHJm69G637avy9at/zyi9EE4ei3P1Y+85UXnonu78TP30X3d2D7j+i6O6t3o3Xvn7kYrRubE5AqAVIlQKoESJUAqRIgVQKkSoBUCZCquX9PyKFf70Sbvf3NyqjXHdvz69mvWQ3h/e3891u5l8qEyAlIlQCpEiBVAqRKgFQJkCoBUiVAqgRIVW0S8tvmX9E372sb25XJxYNi8eDjted+Ek5AqgRIlQCpEiBVAqRKgFQJkCoBUiVAqmqTkLWN7Wjdk3seib7Jf3qy+6GamNye/plOku73rfwvTkCqBEiVAKkSIFUCpEqAVAmQKgFSJUCq5vp5gWHI3yfyL8z7xGTU/0nr/R8pJyBVAqRKgFQJkCoBUiVAqgRIlQCpEiAAAAAAAADcF38DxMWIr68IVwgAAAAASUVORK5CYII="/>
+    </pattern>
+  </defs>
+  <g id="Group_41" data-name="Group 41" transform="translate(-833 -1001)">
+    <g id="Group_39" data-name="Group 39" transform="translate(833 1007.025)">
+      <circle id="Ellipse_17" data-name="Ellipse 17" cx="48.5" cy="48.5" r="48.5" transform="translate(0 -0.025)" fill="#2d2a31"/>
+      <g id="Mask_Group_19" data-name="Mask Group 19" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <rect id="strawb-1000" width="105" height="105" transform="translate(-4 -8.025)" fill="url(#pattern)"/>
+      </g>
+    </g>
+    <g id="Group_36" data-name="Group 36" transform="translate(920.362 1001)">
+      <rect id="Rectangle_81" data-name="Rectangle 81" width="6" height="5" transform="translate(-0.362)" fill="#2d2a31"/>
+      <rect id="Rectangle_82" data-name="Rectangle 82" width="5" height="6" transform="translate(26.638 50)" fill="#2d2a31"/>
+      <rect id="Rectangle_84" data-name="Rectangle 84" width="5" height="5" transform="translate(10.638 18)" fill="#2d2a31"/>
+      <rect id="Rectangle_83" data-name="Rectangle 83" width="6" height="5" transform="translate(31.638 18)" fill="#2d2a31"/>
+      <g id="Group_28" data-name="Group 28" transform="translate(16.067 12.05)">
+        <rect id="Rectangle_75" data-name="Rectangle 75" width="6" height="6" transform="translate(4.572 -0.05)" fill="#2d2a31"/>
+        <rect id="Rectangle_76" data-name="Rectangle 76" width="5" height="5" transform="translate(-0.428 5.95)" fill="#2d2a31"/>
+        <rect id="Rectangle_78" data-name="Rectangle 78" width="5" height="5" transform="translate(10.572 5.95)" fill="#2d2a31"/>
+        <rect id="Rectangle_77" data-name="Rectangle 77" width="6" height="5" transform="translate(4.572 10.95)" fill="#2d2a31"/>
+      </g>
+    </g>
+  </g>
+</svg>

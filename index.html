@@ -45,9 +45,15 @@
                 <ul class="nav__list grid upper" role="list">
                   <div class="nav__items--mobile">
                     <li class="nav__item--mobile"><a href="/">Home</a></li>
-                    <li class="nav__item--mobile"><a href="#projects">Projects</a></li>
-                    <li class="nav__item--mobile"><a href="#about">About</a></li>
-                    <li class="nav__item--mobile"><a href="#contact">Contact</a></li>
+                    <li class="nav__item--mobile">
+                      <a href="#projects">Projects</a>
+                    </li>
+                    <li class="nav__item--mobile">
+                      <a href="#about">About</a>
+                    </li>
+                    <li class="nav__item--mobile">
+                      <a href="#contact">Contact</a>
+                    </li>
                     <li class="nav__item--mobile">
                       <a href="https://github.com/ClariceR" target="_blank"
                         >GitHub</a
@@ -69,8 +75,9 @@
                 <li class="nav__item"><a href="#contact">Contact</a></li>
                 <li class="nav__item">
                   <a href="https://github.com/ClariceR" target="_blank"
-                    ><span class="github-icon"><i class="fab fa-github-alt"></i></span></a
-                  >
+                    ><span class="github-icon"
+                      ><i class="fab fa-github-alt"></i></span
+                  ></a>
                 </li>
               </ul>
             </nav>
@@ -79,14 +86,40 @@
       </header>
       <main>
         <div class="landing__wrapper grid">
-          <img class="landing-icon" src="./assets/heroIcon.png" alt="Pixel Art profile avatar showing a person wearing an orange top and waving hello">
+          <object class="landing-icon" data="./assets/landing-icon.svg" type="image/svg+xml"></object>
           <section class="landing__text">
             <h1 class="landing__text--title">Hi, I'm Clarice</h1>
             <p class="landing__text--body">
-              I build websites and web apps with semantic HTML and best practices CSS and JavaScript, ensuring it’s user friendly and accessible for end-users while maintainable for other devs. 
+              I build websites and web apps with semantic HTML and best
+              practices CSS and JavaScript, ensuring it’s user friendly and
+              accessible for end-users while maintainable for other devs.
             </p>
             <button class="btn btn-talk upper">Let's Talk</button>
           </section>
+        </div>
+        <div class="about-work--wrapper">
+          <div class="about-work__bkg">
+            <section class="about-work">
+              <div class="about-work__text grid">
+                <h2 class="about-work__text--title">What I Do</h2>
+                <object
+                  class="work-icon development-icon"
+                  data="./assets/catcomp-icon.svg"
+                  type="image/svg+xml"
+                ></object>
+                <h3 class="about-work__text--subtitle">Development</h3>
+                <p class="about-work__text--body">
+                  HTML/CSS, JavaScript, Responsive Websites, React Apps
+                </p>
+                <object class="work-icon design-icon" data="./assets/cupcake-icon.svg" type="image/svg+xml"></object>
+                <h3 class="about-work__text--subtitle">Design</h3>
+                <p class="about-work__text--body">
+                  Landing Pages, User Flow, Wireframing, Mobile and Web App
+                  Design
+                </p>
+              </div>
+            </section>
+          </div>
         </div>
       </main>
     </div>
