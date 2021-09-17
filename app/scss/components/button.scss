@@ -39,10 +39,21 @@ button:-moz-focusring {
   padding: u.rem(14) u.rem(28);
   margin: 0.25rem;
   cursor: pointer;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+}
+
+.btn:hover {
+  color: var(--petal);
+  transform: translateY(-1px);
+  box-shadow: rgba(45, 42, 49, 0.1) 0px 4px 6px -1px, rgba(45, 42, 49, 0.06) 0px 2px 4px -1px;
+  
+  
 }
 
 .btn-talk {
   margin-top: u.rem(20);
+  justify-self: center;
 }
 
 .btn-view {
@@ -50,3 +61,4 @@ button:-moz-focusring {
   margin-top: u.rem(20);
   margin-bottom: u.rem(20);
 }
+
