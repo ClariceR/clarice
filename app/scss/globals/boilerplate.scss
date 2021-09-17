@@ -50,6 +50,11 @@ ul {
   justify-content: center;
 }
 
+.grid--evenly {
+  display: grid;
+  align-content: space-evenly;
+}
+
 .grid-right {
   justify-content: right;
 }

@@ -3,6 +3,7 @@
 .projects-list__title {
   text-align: center;
   margin-bottom: u.rem(40);
+  font-size: u.rem(24);
 }
 
 .card {
@@ -16,7 +17,7 @@
 }
 
 .card__half {
-  height: u.rem(280);
+  height: u.rem(300);
   overflow: hidden;
 }
 
@@ -31,6 +32,10 @@
   height: 100%;
 }
 
+.card__text--subtitle{
+      font-size: u.rem(20);
+  }
+
 .card__text--body {
   font-size: u.rem(12);
   line-height: 1.6;
@@ -41,20 +46,27 @@
   display: block;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 58em) {
+  .projects-list__title {
+    font-size: u.rem(42);
+    margin-bottom: u.rem(60);
+  }
   .card {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "left right";
     width: 60vw;
   }
   .card__half {
-    height: u.rem(350);
+    min-height: u.rem(400);
   }
   .card-text__wrapper {
-  padding: u.rem(15) u.rem(60);
-  text-align: left;
-}
-.btn-view {
+    padding: u.rem(15) u.rem(60);
+    text-align: left;
+  }
+  .card__text--subtitle{
+      font-size: u.rem(24);
+  }
+  .btn-view {
     justify-self: left;
-}
+  }
 }

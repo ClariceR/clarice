@@ -57,11 +57,11 @@
 
 // }
 
-@media (min-width: 48em) {
+@media (min-width: 58em) {
   .landing__card {
     // border: 1px solid orange;
     align-items: center;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     grid-template-areas: "text image";
     gap: u.rem(20);
     min-height: 76vh;
@@ -72,12 +72,13 @@
     height: 75%;
   }
   .landing__image {
+    width: 100%;
     grid-area: image;
     align-content: start;
     // justify-content: start;
   }
   .landing__svg {
-    max-width: 250px;
+    width: u.rem(250);
     align-self: center;
     justify-self: center;
     transform: translateX(0);
