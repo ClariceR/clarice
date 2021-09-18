@@ -27,4 +27,18 @@
   .about-me {
     width: 60vw;
   }
+  .about-me__title {
+    font-size: u.rem(42);
+    margin-bottom: u.rem(90);
+  }
+  .about-me__text--body {
+    font-size: u.rem(14);
+    line-height: 1.6;
+    padding: 0 u.rem(40) 0 u.rem(40);
+    margin-bottom: u.rem(90);
+  }
+  .profile-pic {
+    width: u.rem(120);
+    margin-bottom: u.rem(30);
+  }
 }
