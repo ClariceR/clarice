@@ -7,6 +7,10 @@
   font-size: u.rem(24);
 }
 
+.projects-items {
+  gap: u.rem(60);
+}
+
 .card {
   // border: u.rem(1) solid var(--blackberry);
   width: 90vw;
@@ -24,6 +28,10 @@
 
 .card__image {
   width: 100%;
+}
+
+.notes-img {
+  height: 100%;
 }
 
 .card-text__wrapper {
@@ -59,6 +67,9 @@
   }
   .card__half {
     min-height: u.rem(400);
+  }
+  .area-img {
+    grid-area: right;
   }
   .card-text__wrapper {
     padding: u.rem(15) u.rem(60);

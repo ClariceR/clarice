@@ -31,7 +31,7 @@ button:-moz-focusring {
     var(--brightOrange) 0%,
     var(--brightPink) 100%
   );
-  color: var(--petal);
+  color: var(--petal) !important;
   line-height: 1.2;
   letter-spacing: 1px;
   white-space: nowrap;
