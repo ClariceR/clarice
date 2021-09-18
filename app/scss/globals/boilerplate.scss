@@ -40,7 +40,13 @@ ul {
   text-align: center;
 }
 
-address { all: inherit; }
+object {
+  pointer-events: none;
+}
+
+address { 
+  all: inherit; 
+}
 
 .grid--only {
   display: grid;
