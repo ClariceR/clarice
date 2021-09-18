@@ -7,10 +7,7 @@
 
 .landing__text {
   text-align: center;
-  //   width: 100vw;
-  //   justify-self: center;
   align-self: space-between;
-  // border: 1px solid pink;
 }
 
 .landing__text--title {
@@ -23,16 +20,9 @@
   line-height: 1.5;
 }
 
-//second try
 .landing__card {
-  //   border: 1px solid red;
   width: 90vw;
   min-height: 65vh;
-}
-
-.landing__card--half {
-  //   border: 1px solid green;
-  //   height: 50%;
 }
 
 .landing__svg {
@@ -43,23 +33,8 @@
   margin-top: 2rem;
 }
 
-// @media (min-width: 48em) {
-//   .landing__card {
-//     // border: 1px solid orange;
-//   }
-//   .landing__text--title {
-//     font-size: u.rem(48);
-//   }
-//   .landing__text--body {
-//     font-size: u.rem(14);
-//     line-height: 1.5;
-//   }
-
-// }
-
 @media (min-width: 58em) {
   .landing__card {
-    // border: 1px solid orange;
     align-items: center;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     grid-template-areas: "text image";
@@ -68,14 +43,12 @@
     width: 68vw;
   }
   .landing__card--half {
-    // border: 1px solid green;
     height: 75%;
   }
   .landing__image {
     width: 100%;
     grid-area: image;
     align-content: start;
-    // justify-content: start;
   }
   .landing__svg {
     width: u.rem(250);
@@ -95,24 +68,4 @@
     font-size: u.rem(16);
     line-height: 1.5;
   }
-
-  //   .landing-icon {
-  //       grid-area: icon;
-  //       width: u.rem(250);
-  //       border: 1px solid red;
-  //       transform: translateX(0);
-  //   }
-  //   .landing__text {
-  //       width: 50%;
-  //   }
 }
-
-// .landing-icon {
-//   // border: 1px solid red;
-//   margin-top: u.rem(60);
-//   width: u.rem(188);
-//   align-self: center;
-//   justify-self: center;
-//   transform: translateX(10%);
-// }
-
