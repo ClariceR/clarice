@@ -5,16 +5,6 @@
   height: u.rem(36);
 }
 
-@media (min-width: 48.0625em) {
-  .header__section {
-    width: 70vw;
-    height: u.rem(40);
-  }
-  .mobile__menu-icon {
-      display: none;
-  }
-}
-
 .logo-icon {
   width: u.rem(14);
 }
@@ -29,6 +19,9 @@
 .mobile__menu-icon {
   cursor: pointer;
   text-align: right;
+  display: block;
+  position: relative;
+  z-index: 9;
 }
 
 .line {
@@ -42,14 +35,24 @@
 
 .longer-line {
   width: u.rem(20);
-  margin-bottom: u.rem(5);
+  margin-bottom: u.rem(6);
 }
+
+.menu-toggle {
+    > span:first-child {
+      transform: rotate(45deg);
+    }
+    > span:last-child {
+      width: u.rem(20);
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  }
 
 // Menu that shows only when mobile menu is clicked
 .open {
   // When open change the nav__list:
-  // visibility: visible;
-  // opacity: 0.85;
+  visibility: visible !important;
+  opacity: 0.95 !important;
 }
 
 .nav__list {
@@ -64,7 +67,8 @@
   overflow: auto;
   top: 0;
   left: 0;
-  z-index: 8;
+  z-index: 1;
+  font-size: u.rem(14);
   padding: u.rem(50) u.rem(25);
 }
 
@@ -80,12 +84,21 @@
 }
 
 .github-icon {
-    font-size: u.rem(16);
+  font-size: u.rem(16);
 }
 
 @media (max-width: 48em) {
-    .header__menu {
-        display: none;
-}
+  .header__menu {
+    display: none;
+  }
 }
 
+@media (min-width: 48.0625em) {
+  .header__section {
+    width: 70vw;
+    height: u.rem(40);
+  }
+  .mobile__menu-icon {
+    display: none;
+  }
+}

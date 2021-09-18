@@ -29,6 +29,8 @@
       <header>
         <div class="header__container grid">
           <div class="header__section flex flex--apart flex--bottom">
+
+            <!-- Logo -->
             <div class="header__logo">
               <a href="/"
                 ><object
@@ -38,35 +40,47 @@
                 ></object
               ></a>
             </div>
+
             <!-- Nav Menu for Mobile -->
             <nav class="header__menu--mobile">
+
+              <!-- Hamburger menu only visible on mobile -->
+              <div class="mobile__menu-icon">
+                <a
+                id="menu-btn"
+                href="#"
+                class="header__mobile_menu-btn grid grid-right">
+                  <span class="line longer-line"></span>
+                  <span class="line"></span>
+                </a>
+              </div>
+
               <!-- Menu only visible on mobile when open -->
               <div class="nav__container grid">
-                <ul class="nav__list grid upper" role="list">
+                <ul id="mobile-menu" class="nav__list grid upper" role="list">
                   <div class="nav__items--mobile">
                     <li class="nav__item--mobile"><a href="/">Home</a></li>
                     <li class="nav__item--mobile">
-                      <a href="#projects">Projects</a>
+                      <a id="projects-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav__item--mobile">
-                      <a href="#about">About</a>
+                      <a id="about-link" href="#about">About</a>
                     </li>
                     <li class="nav__item--mobile">
-                      <a href="mailto: claricerdallorto@gmail.com">Contact</a>
+                      <a id="contact-link" href="mailto: claricerdallorto@gmail.com">Contact</a>
                     </li>
                     <li class="nav__item--mobile">
-                      <a href="https://github.com/ClariceR" target="_blank"
+                      <a id="github-link" href="https://github.com/ClariceR" target="_blank"
                         >GitHub</a
                       >
                     </li>
                   </div>
                 </ul>
               </div>
-              <div class="mobile__menu-icon grid grid-right">
-                <span class="line longer-line"></span>
-                <span class="line"></span>
-              </div>
+
+              
             </nav>
+
             <!-- Nav menu for Desktop -->
             <nav class="header__menu">
               <ul class="flex upper nav__items" role="list">
@@ -85,22 +99,6 @@
         </div>
       </header>
       <main>
-        <!-- <div class="landing__wrapper grid">
-          <object
-            class="landing-icon"
-            data="./assets/landing-icon.svg"
-            type="image/svg+xml"
-          ></object>
-          <section class="landing__text grid">
-            <h1 class="landing__text--title">Hi, I'm Clarice</h1>
-            <p class="landing__text--body">
-              I build websites and web apps with semantic HTML and best
-              practices CSS and JavaScript, ensuring it’s user friendly and
-              accessible for end-users while maintainable for other devs.
-            </p>
-            <a class="btn btn-talk upper">Let's Talk</a>
-          </section>
-        </div> -->
 
         <!-- Landing section -->
         <div class="landing__wrapper yellow grid--only">
@@ -201,8 +199,8 @@
               <article class="project-item card grid">
                 <div class="card__half card__half--img area-img">
                   <img
-                    class="card__image"
-                    src="./assets/area-layouts.png"
+                    class="area__image"
+                    src="./assets/area-layouts-big.png"
                     alt="Screenshot of an app to calculate areas."
                   />
                 </div>
