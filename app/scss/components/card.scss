@@ -12,7 +12,6 @@
 }
 
 .card {
-  // border: u.rem(1) solid var(--blackberry);
   width: 85vw;
   border-radius: u.rem(20);
   background-color: var(--peach);
@@ -30,9 +29,9 @@
   width: 100%;
 }
 
-.notes-img {
-  height: 100%;
-}
+// .notes-img {
+//   height: 100%;
+// }
 
 .card-text__wrapper {
   padding: u.rem(10) u.rem(20);
