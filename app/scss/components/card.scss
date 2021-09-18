@@ -3,7 +3,7 @@
 .projects-list__title {
   text-align: center;
   padding-top: u.rem(90);
-  margin-bottom: u.rem(40);
+  margin-bottom: u.rem(60);
   font-size: u.rem(24);
 }
 
@@ -13,7 +13,7 @@
 
 .card {
   // border: u.rem(1) solid var(--blackberry);
-  width: 90vw;
+  width: 85vw;
   border-radius: u.rem(20);
   background-color: var(--peach);
   overflow: hidden;
