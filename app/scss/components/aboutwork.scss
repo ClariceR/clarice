@@ -1,8 +1,5 @@
 @use '../util' as u;
 
-.about-work__wrapper {
-    // border: 1px solid orangered;
-}
 
 .about-work__bkg {
   background-image: url("../../../assets/work-bkg-big.svg");
@@ -17,7 +14,7 @@
 .about-work {
   width: 100vw;
   text-align: center;
-  padding-top: u.rem(110);
+  padding-top: u.rem(50);
 }
 
 .about-work__text--title {
@@ -39,7 +36,7 @@
 .about-work__text--body {
   font-size: u.rem(12);
   line-height: 1.6;
-  padding: 0 u.rem(40) u.rem(40) u.rem(40);
+  padding: 0 u.rem(40) u.rem(20) u.rem(40);
 }
 
 @media (min-width: 58em) {
