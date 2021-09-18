@@ -130,29 +130,34 @@
 
         <!-- What I do section -->
         <div class="about-work__wrapper">
-          <div class="about-work__bkg">
-            <section class="about-work">
-              <div class="about-work__text grid">
-                <h2 class="about-work__text--title">What I Do</h2>
-                <object
-                  class="work-icon development-icon"
-                  data="./assets/catcomp-icon.svg"
-                  type="image/svg+xml"
-                ></object>
-                <h3 class="about-work__text--subtitle">Development</h3>
-                <p class="about-work__text--body">
-                  HTML/CSS, JavaScript, Responsive Websites, React Apps
-                </p>
-                <object
-                  class="work-icon design-icon"
-                  data="./assets/cupcake-icon.svg"
-                  type="image/svg+xml"
-                ></object>
-                <h3 class="about-work__text--subtitle">Design</h3>
-                <p class="about-work__text--body">
-                  Landing Pages, User Flow, Wireframing, Mobile and Web App
-                  Design
-                </p>
+          <div class="about-work__bkg grid">
+            <section class="about-work grid">
+              <h2 class="about-work__text--title">What I Do</h2>
+              <div class="about-work__items grid">
+                <div class="about-work__item about-work__dev">
+                  <object
+                    class="work-icon development-icon"
+                    data="./assets/catcomp-icon.svg"
+                    type="image/svg+xml"
+                  ></object>
+                  <h3 class="about-work__text--subtitle">Development</h3>
+                  <p class="about-work__text--body">
+                    HTML/CSS, JavaScript, Responsive Websites, React Apps
+                  </p>
+                </div>
+                <div class="about-work__item about-work__design">
+                  <object
+                    class="work-icon design-icon"
+                    data="./assets/cupcake-icon.svg"
+                    type="image/svg+xml"
+                  ></object>
+                  <h3 class="about-work__text--subtitle">Design</h3>
+                  <p class="about-work__text--body">
+                    Landing Pages, User Flow, Wireframing, Mobile and Web App
+                    Design
+                  </p>
+                </div>
+
               </div>
             </section>
           </div>
@@ -164,7 +169,11 @@
             <h2 class="projects-list__title">Latest Projects</h2>
             <article class="project-item card grid">
               <div class="card__half card__half--img">
-                <img class="card__image" src="./assets/nia-lesedi.png" alt="Screenshot of a photographers website." />
+                <img
+                  class="card__image"
+                  src="./assets/nia-lesedi.png"
+                  alt="Screenshot of a photographers website."
+                />
               </div>
               <div class="card__half">
                 <div class="card-text__wrapper grid--evenly">

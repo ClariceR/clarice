@@ -64,7 +64,7 @@
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     grid-template-areas: "text image";
     gap: u.rem(20);
-    min-height: 76vh;
+    min-height: 70vh;
     width: 68vw;
   }
   .landing__card--half {
@@ -91,7 +91,7 @@
     font-size: u.rem(58);
   }
   .landing__text--body {
-    padding: 0;
+    padding: 0 u.rem(55) 0 0;
     font-size: u.rem(16);
     line-height: 1.5;
   }
