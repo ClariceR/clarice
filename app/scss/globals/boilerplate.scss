@@ -48,6 +48,10 @@ address {
   all: inherit; 
 }
 
+.app {
+  width: 100vw;
+}
+
 .grid--only {
   display: grid;
 }
@@ -111,6 +115,11 @@ address {
   border-radius: 50px;
 }
 
+.border {
+  border: 1px solid orangered;
+}
+
 .hide {
   display: none;
 }
+

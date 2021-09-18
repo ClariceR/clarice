@@ -1,7 +1,7 @@
 @use '../util/' as u;
 
 .header__section {
-  width: 90vw;
+  width: 87vw;
   height: u.rem(36);
 }
 
@@ -12,8 +12,8 @@
 // Mobile
 
 .header__menu--mobile {
-  align-self: end;
-  justify-self: end;
+  align-self: flex-end;
+  justify-self: flex-end;
 }
 
 .mobile__menu-icon {
