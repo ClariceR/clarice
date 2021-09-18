@@ -40,6 +40,8 @@ ul {
   text-align: center;
 }
 
+address { all: inherit; }
+
 .grid--only {
   display: grid;
 }
