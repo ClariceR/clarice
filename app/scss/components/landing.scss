@@ -22,7 +22,7 @@
 
 .landing__card {
   width: 90vw;
-  min-height: 65vh;
+  min-height: 70vh;
 }
 
 .landing__svg {
@@ -30,7 +30,7 @@
   align-self: center;
   justify-self: center;
   transform: translateX(10%);
-  margin-top: 2rem;
+  margin-top: u.rem(120);
 }
 
 @media (min-width: 58em) {
