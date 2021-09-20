@@ -32,6 +32,10 @@
     place-items: center;
 }
 
+.grid--align-content-center {
+    align-content: center;
+}
+
 .grid--end {
     align-items: end;
 }
@@ -59,3 +63,7 @@
 .upper {
     text-transform: uppercase;
 }
+
+// li {
+//     font-size: u.rem(16);
+// }
