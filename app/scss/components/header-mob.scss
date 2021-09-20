@@ -48,7 +48,7 @@
   opacity: 0.95 !important;
 }
 
-.overlay-nav-menu-mobile {
+.overlay-menu-mobile {
   text-align: center;
 
   visibility: hidden;
@@ -67,5 +67,17 @@
 
   > li {
       padding: u.rem(20) 0;
+  }
+}
+
+@media (max-width: 48em) {
+  .menu--desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 48.0625em) {
+  .menu-icon-moblie {
+    display: none;
   }
 }
