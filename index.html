@@ -27,23 +27,26 @@
   <body class="b-r grid grid--place-center">
     <div class="app-wrapper b-p content-width content-height">
 
-      <header class="header b-g flex flex-align-end flex--just-apart">
+      <header class="header b-g grid grid--end">
 
-        <a href="/">
-          <object
-            class="logomark"
-            data="./assets/logomark-clarice.svg"
-            type="image/svg+xml"
-          ></object>
-        </a>
+        <div class="header__menu flex flex-align-end flex--just-apart">
+            <a href="/">
+              <object
+                class="logomark"
+                data="./assets/logomark-clarice.svg"
+                type="image/svg+xml"
+              ></object>
+            </a>
+    
+            <button id="menu-btn" class="menu-icon-moblie grid grid--just-i-right">
+              <span></span>
+              <span></span>
+            </button>
 
-        <button id="menu-btn" class="menu-icon-moblie grid grid--just-i-right">
-          <span></span>
-          <span></span>
-        </button>
-      </header>
 
-      <nav>
+        </div>
+
+        <nav>
           <ul id="mobile-menu" class="overlay-nav-menu-mobile b-b upper grid grid--align-content-center">
               <li><a href="./">Home</a></li>
               <li><a href="#projects">Projects</a></li>
@@ -52,6 +55,8 @@
               <li><a id="github-link" href="https://github.com/ClariceR" target="_blank">GitHub</a></li>
           </ul>
       </nav>
+        
+      </header>
 
       <main></main>
 

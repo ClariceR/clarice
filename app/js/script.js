@@ -9,43 +9,41 @@ const github = document.querySelector("#github-link");
 menuBtn.addEventListener("click", () => {
   menuBtn.classList.toggle("menu-toggle");
 
-  !menuBtn.classList.contains("menu-toggle") ? mobileMenu.classList.remove('open') : mobileMenu.classList.add("open");
+  !menuBtn.classList.contains("menu-toggle")
+    ? mobileMenu.classList.remove("open")
+    : mobileMenu.classList.add("open");
 });
 
-projects.addEventListener('click', () => {
-    if (menuBtn.classList.contains("menu-toggle")) {
-    menuBtn.classList.remove("menu-toggle");
-    mobileMenu.classList.remove("anim-fade-in");
-    mobileMenu.classList.remove('open');
-    mobileMenu.classList.add("anim-fade-out");
-    }
+projects.addEventListener("click", () => {
+  menuBtn.classList.toggle("menu-toggle");
+
+  !menuBtn.classList.contains("menu-toggle")
+    ? mobileMenu.classList.remove("open")
+    : mobileMenu.classList.add("open");
 });
 
 about.addEventListener("click", () => {
-  if (menuBtn.classList.contains("menu-toggle")) {
-    menuBtn.classList.remove("menu-toggle");
-    mobileMenu.classList.remove("anim-fade-in");
-    mobileMenu.classList.remove("open");
-    mobileMenu.classList.add("anim-fade-out");
-  }
+  menuBtn.classList.toggle("menu-toggle");
+
+  !menuBtn.classList.contains("menu-toggle")
+    ? mobileMenu.classList.remove("open")
+    : mobileMenu.classList.add("open");
 });
 
 contact.addEventListener("click", () => {
-  if (menuBtn.classList.contains("menu-toggle")) {
-    menuBtn.classList.remove("menu-toggle");
-    mobileMenu.classList.remove("anim-fade-in");
-    mobileMenu.classList.remove("open");
-    mobileMenu.classList.add("anim-fade-out");
-  }
+  menuBtn.classList.toggle("menu-toggle");
+
+  !menuBtn.classList.contains("menu-toggle")
+    ? mobileMenu.classList.remove("open")
+    : mobileMenu.classList.add("open");
 });
 
 github.addEventListener("click", () => {
-  if (menuBtn.classList.contains("menu-toggle")) {
-    menuBtn.classList.remove("menu-toggle");
-    mobileMenu.classList.remove("anim-fade-in");
-    mobileMenu.classList.remove("open");
-    mobileMenu.classList.add("anim-fade-out");
-  }
+  menuBtn.classList.toggle("menu-toggle");
+
+  !menuBtn.classList.contains("menu-toggle")
+    ? mobileMenu.classList.remove("open")
+    : mobileMenu.classList.add("open");
 });
 
 // overlay.addEventListener("click", () => {
