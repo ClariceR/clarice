@@ -1,2 +1,7 @@
 @use '../util' as u;
 
+.ul-desktop {
+    > li {
+        margin-left: u.rem(36);
+    }
+}
