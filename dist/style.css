@@ -1,2 +1,2 @@
-
+html{box-sizing:border-box;font-size:100%}*,:after,:before{box-sizing:inherit}body{background-color:var(--petal);color:var(--blackberry);font-family:var(--fontBody);margin:0}h1,h2,h3{font-family:Playfair Display,serif;font-weight:800}a,a:active,a:visited{color:var(--blackberry);text-decoration:none}a:hover{color:var(--pinkGuava)}ul{list-style:none;margin:0;text-align:center}object{pointer-events:none}address{all:inherit}.border{border:1px solid #789}
 /*# sourceMappingURL=style.css.map */
