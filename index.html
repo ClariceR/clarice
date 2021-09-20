@@ -1,10 +1,10 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,325 +12,46 @@
       rel="stylesheet"
     />
 
-    <!-- Font awesome Icons -->
     <script
       src="https://kit.fontawesome.com/fc5dc23b0e.js"
       crossorigin="anonymous"
     ></script>
 
-    <!-- Css styles -->
     <link rel="stylesheet" href="dist/style.css" />
-    <!-- JS -->
+
     <script defer src="dist/script.js"></script>
+
     <title>Clarice</title>
   </head>
-  
-  <body>
 
-    <!-- Header -->
-    <header class="header border">
-      <object class="logomark" data="./assets/logomark-clarice.svg" type="image/svg+xml"></object>
+  <body class="b-r grid grid--place-center">
+    <div class="app-wrapper b-p content-width content-height">
 
-      <!-- Hamburger Menu for Mobile -->
-      <div class="menu-icon-moblie"></div>
+      <header class="header b-g flex flex-align-end flex--just-apart">
 
-       <!-- Overlay Nav Menu for Mobile - When menu icon is clicked, class open is added and this nav shows -->
-       <nav class="overlay-nav-menu-mobile"></nav>
+        <a href="/">
+          <object
+            class="logomark"
+            data="./assets/logomark-clarice.svg"
+            type="image/svg+xml"
+          ></object>
+        </a>
 
-       <!-- Nav menu for desktop -->
-       <nav class="nav-menu-desktop"></nav>
-    </header>
-
-    <!-- Main -->
-    <main class="main"></main>
-
-    <!-- Footer -->
-    <footer class="footer"></footer>
-
-
-
-    <!-- <div class="app grid">
-      <header>
-        <div class="header__container grid">
-          <div class="header__section flex flex--apart flex--bottom"> -->
-
-            <!-- Logo -->
-            <!-- <div class="header__logo">
-              <a href="./"
-                ><object
-                  class="logo-icon"
-                  data="./assets/C-logo.svg"
-                  type="image/svg+xml"
-                ></object
-              ></a>
-            </div> -->
-
-            <!-- Nav Menu for Mobile -->
-            <!-- <nav class="header__menu--mobile"> -->
-
-              <!-- Hamburger menu only visible on mobile -->
-            <!-- <div class="mobile__menu-icon">
-              <a
-                id="menu-btn"
-                href="#"
-                class="header__mobile_menu-btn grid grid-right">
-                  <span class="line longer-line"></span>
-                  <span class="line"></span>
-              </a>
-            </div> -->
-
-              <!-- Menu only visible on mobile when open -->
-              <!-- <nav class="nav__container grid">
-                <ul id="mobile-menu" class="nav__list grid upper" role="list"> -->
-                  <!-- <div class="nav__items--mobile">
-                    <li class="nav__item--mobile"><a href="./">Home</a></li>
-                    <li class="nav__item--mobile">
-                      <a id="projects-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav__item--mobile">
-                      <a id="about-link" href="#about">About</a>
-                    </li>
-                    <li class="nav__item--mobile">
-                      <a id="contact-link" href="mailto: claricerdallorto@gmail.com">Contact</a>
-                    </li>
-                    <li class="nav__item--mobile">
-                      <a id="github-link" href="https://github.com/ClariceR" target="_blank"
-                        >GitHub</a
-                      >
-                    </li>
-                  </div> -->
-                <!-- </ul>
-              </nav>
-            </nav> -->
-
-            <!-- Nav menu for Desktop -->
-            <!-- <nav class="header__menu">
-              <ul class="flex upper nav__items" role="list">
-                <li class="nav__item"><a href="#projects">Projects</a></li>
-                <li class="nav__item"><a href="#about">About</a></li>
-                <li class="nav__item"><a href="mailto: claricerdallorto@gmail.com">Contact</a></li>
-                <li class="nav__item">
-                  <a href="https://github.com/ClariceR" target="_blank"
-                    ><span class="github-icon"
-                      ><i class="fab fa-github-alt"></i></span
-                  ></a>
-                </li>
-              </ul>
-            </nav> -->
-          <!-- </div>
-        </div>
+        <button id="menu-btn" class="menu-icon-moblie grid grid--just-i-right">
+          <span></span>
+          <span></span>
+        </button>
       </header>
-      <main> -->
 
-        <!-- Landing section -->
-        <!-- <div class="landing__wrapper yellow grid--only">
-          <section class="landing__card red grid--only">
-            <div class="landing__card--half landing__image green grid">
-              <div class="landing__object blue">
-                <object
-                  class="landing__svg"
-                  data="./assets/landing-icon.svg"
-                  type="image/svg+xml"
-                ></object>
-              </div>
-            </div> -->
-            <!-- <div class="landing__card--half landing__info green grid--only">
-              <div class="landing__text pink">
-                <h1 class="landing__text--title">Hi, I'm Clarice</h1>
-                <p class="landing__text--body">
-                  I build websites and web apps with semantic HTML and best
-                  practices CSS and JavaScript, ensuring it’s user friendly and
-                  accessible for end-users while maintainable for other devs.
-                </p>
-                <a href="mailto: claricerdallorto@gmail.com" class="btn btn-talk upper">Let's Talk</a>
-              </div>
-            </div>
-          </section> -->
-        <!-- </div> -->
+      <nav class="overlay-nav-menu-mobile b-b">
+          <ul class="upper">
+              <li><a href="./">Home</a></li>
+          </ul>
+      </nav>
 
-        <!-- What I do section -->
-        <!-- <div class="about-work__wrapper">
-          <div class="about-work__bkg grid">
-            <section class="about-work grid">
-              <h2 class="about-work__text--title title">What I Do</h2>
-              <div class="about-work__items grid">
-                <div class="about-work__item about-work__dev">
-                  <object
-                    class="work-icon development-icon"
-                    data="./assets/catcomp-icon.svg"
-                    type="image/svg+xml"
-                  ></object> -->
-                  <!-- <h3 class="about-work__text--subtitle">Development</h3>
-                  <p class="about-work__text--body">
-                    HTML/CSS, JavaScript, Responsive Websites, React Apps
-                  </p>
-                </div>
-                <div class="about-work__item about-work__design">
-                  <object
-                    class="work-icon design-icon"
-                    data="./assets/cupcake-icon.svg"
-                    type="image/svg+xml"
-                  ></object> -->
-                  <!-- <h3 class="about-work__text--subtitle">Design</h3>
-                  <p class="about-work__text--body">
-                    Landing Pages, User Flow, Wireframing, Mobile and Web App
-                    Design
-                  </p>
-                </div>
-              </div>
-            </section>
-          </div>
-        </div> -->
+      <main></main>
 
-        <!-- Latest Projects section -->
-        <!-- <div id="projects" class="projects__wrapper grid">
-          <section class="projects-list">
-            <h2 class="projects-list__title title">Latest Projects</h2>
-            <div class="projects-items grid--only"> -->
-
-              <!-- Nia -->
-              <!-- <article class="project-item card grid">
-                <div class="card__half card__half--img">
-                  <img
-                    class="card__image"
-                    src="./assets/nia-lesedi.png"
-                    alt="Screenshot of a photographers website."
-                  />
-                </div>
-                <div class="card__half">
-                  <div class="card-text__wrapper grid--evenly">
-                    <h3 class="card__text--subtitle">
-                      Designing and Building Nia’s Portfolio Website
-                    </h3>
-                    <p class="card__text--body">
-                      A photographer’s portfolio built from scratch, from
-                      wireframe to published website.
-                    </p>
-                    <a -->
-                      <!-- class="card__text--link upper"
-                      href="https://claricer.github.io/nia-lesedi/"
-                      target="_blank"
-                      >See it live ></a
-                    >
-                    <a href="https://github.com/ClariceR/nia-lesedi" target="_blank" class="btn upper btn-view">view project</a>
-                  </div>
-                </div>
-              </article> -->
-  
-              <!-- Area -->
-              <!-- <article class="project-item card grid">
-                <div class="card__half card__half--img area-img">
-                  <img
-                    class="area__image"
-                    src="./assets/area-layouts-big.png"
-                    alt="Screenshot of an app to calculate areas."
-                  />
-                </div> -->
-                <!-- <div class="card__half">
-                  <div class="card-text__wrapper grid--evenly">
-                    <h3 class="card__text--subtitle">
-                      Area Layouts Web App
-                    </h3>
-                    <p class="card__text--body">
-                      A web app built from scratch, using vanilla JavaScript and Materialize.
-                    </p>
-                    <a -->
-                      <!-- class="card__text--link upper"
-                      href="https://claricer.github.io/area-combinations/"
-                      target="_blank"
-                      >See it live ></a
-                    >
-                    <a href="https://github.com/ClariceR/area-combinations" target="_blank" class="btn upper btn-view">view project</a>
-                  </div>
-                </div>
-              </article> -->
-  
-              <!-- Notes -->
-              <!-- <article class="project-item card grid">
-                <div class="card__half card__half--img">
-                  <img
-                    class="notes-img"
-                    src="./assets/super-sticky-notes.png"
-                    alt="Screenshot of a photographers website."
-                  />
-                </div>
-                <div class="card__half">
-                  <div class="card-text__wrapper grid--evenly">
-                    <h3 class="card__text--subtitle">
-                      Super Sticky Notes React App
-                    </h3>
-                    <p class="card__text--body">
-                      A notes App designed in Adobe XD and built with React JS
-                    </p> -->
-                    <!-- <a
-                      class="card__text--link upper"
-                      href="https://superstickynotes.netlify.app"
-                      target="_blank"
-                      >See it live ></a
-                    >
-                    <a href="https://github.com/ClariceR/sticky-notes-react" target="_blank" class="btn upper btn-view">view project</a>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </section>
-        </div> -->
-
-        <!-- About me section -->
-        <!-- <div id="about" class="about-me__wrapper grid">
-          <section class="about-me grid">
-            <h2 class="about-me__title title">About Clarice</h2>
-            <object
-              class="profile-pic"
-              data="./assets/cpp.svg"
-              type="image/svg+xml"
-            ></object>
-            <p class="about-me__text--body text--body">
-              Clarice graduated in Fine Art and was always passionate about art,
-              design, computers and games. She found in Web Dev the best balance
-              to unite the things she enjoys most. She also loves cats and
-              cakes. Clarice currently lives in the UK.
-            </p>
-          </section>
-        </div> -->
-
-        <!-- Get in Touch & Footer sections -->
-        <!-- <div class="footer__wrapper grid--start">
-          <footer class="footer__bkg grid--start">
-            <div class="footer__items">
-              <address class="contact__text">
-                <h2 class="contact__title title">Get in Touch</h2>
-                <a href="mailto: claricerdallorto@gmail.com" class="btn btn-talk upper">Let's Talk</a>
-                  </div>
-              </address>
-              <div class="footer__nav flex flex--apart">
-                <div class="left-side">
-                  <a href="./">
-                    <object
-                  class="logo"
-                  data="./assets/logo-clarice.svg"
-                  type="image/svg+xml"></object>
-                  </a>
-                </div> -->
-                <!-- <div class="right-side">
-                  <nav class="footer__menu">
-              <ul class="flex upper nav__items" role="list">
-                <li class="nav__item"><a href="#projects">Projects</a></li>
-                <li class="nav__item"><a href="#about">About</a></li>
-                <li class="nav__item">
-                  <a href="https://github.com/ClariceR" target="_blank"
-                    ><span class="github-icon"
-                      ><i class="fab fa-github-alt"></i></span
-                  ></a>
-                </li>
-              </ul>
-            </nav> -->
-                <!-- </div>
-              </div>
-            </div>
-          <footer>
-        </div>
-      </main>
-    </div> -->
+      <footer></footer>
+    </div>
   </body>
 </html>

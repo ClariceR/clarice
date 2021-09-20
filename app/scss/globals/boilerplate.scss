@@ -28,6 +28,7 @@ a:visited,
 a:active {
   color: var(--blackberry);
   text-decoration: none;
+  display: inline-block;
 }
 
 a:hover {
@@ -37,15 +38,17 @@ a:hover {
 ul {
   list-style: none;
   margin: 0;
+  padding: 0;
   text-align: center;
 }
 
 object {
   pointer-events: none;
+  display: block;
 }
 
-address { 
-  all: inherit; 
+address {
+  all: inherit;
 }
 
 // .app {
@@ -122,4 +125,3 @@ address {
 // .hide {
 //   display: none;
 // }
-
