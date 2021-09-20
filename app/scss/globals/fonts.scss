@@ -1,4 +1,21 @@
+@use '../util' as u;
+
 :root {
     --fontDisplay: 'Playfair Display', serif;
     --fontBody: 'Montserrat', sans-serif;
+
+
+    --font-body-sm: u.rem(14);
+    --font-body-m: u.rem(16);
+    --font-body-l: u.rem(18);
+
+    --font-subtitle-mob: u.rem(20);
+    --font-subtitle-desk: u.rem(24);
+
+    --font-title-mob: u.rem(28);
+    --font-title-desk: u.rem(32);
+
+    --font-display-mob: u.rem(34);
+    --font-display-desk: u.rem(52);
+
 }
