@@ -1,61 +1,60 @@
-@use '../util/' as u;
+@use '../util' as u;
 
-.header__section {
-  width: 87vw;
-  height: u.rem(36);
+.header {
+  height: u.rem(40);
 }
 
-.logo-icon {
-  width: u.rem(14);
+.logomark {
+  width: u.rem(16);
 }
 
-// Mobile
-
-.header__menu--mobile {
-  align-self: flex-end;
-  justify-self: flex-end;
-}
-
-.mobile__menu-icon {
+// Hamburger menu for mobile
+.menu-icon-moblie {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
   cursor: pointer;
-  text-align: right;
-  display: block;
   position: relative;
   z-index: 9;
-}
+  > span {
+    display: block;
+    width: u.rem(22);
+    height: u.rem(2);
+    background-color: var(--blackberry);
+    transition: all 300ms ease-in-out;
 
-.line {
-  background-color: var(--blackberry);
-  width: u.rem(14);
-  height: u.rem(2);
-  display: block;
-  justify-self: end;
-  transition: all 0.375s ease-in-out;
-}
-
-.longer-line {
-  width: u.rem(20);
-  margin-bottom: u.rem(6);
-}
-
-.menu-toggle {
-    > span:first-child {
-      transform: rotate(45deg);
+    &:first-child {
+      margin-bottom: u.rem(6);
     }
-    > span:last-child {
-      width: u.rem(20);
-      transform: translateY(-8px) rotate(-45deg);
+
+    &:last-child {
+      width: u.rem(16);
     }
   }
+}
+
+// Makes the hamburger menu turn to an x
+.menu-toggle {
+  > span:first-child {
+    transform: rotate(45deg);
+  }
+  > span:last-child {
+    width: u.rem(22);
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
 
 // Menu that shows only when mobile menu is clicked
+
+// When opened change the overlay-nav-menu-mobile:
 .open {
-  // When open change the nav__list:
   visibility: visible !important;
   opacity: 0.95 !important;
 }
 
-.nav__list {
+.overlay-menu-mobile {
+  text-align: center;
+
   visibility: hidden;
   background-color: var(--peach);
   transform: translateY(0);
@@ -68,37 +67,32 @@
   top: 0;
   left: 0;
   z-index: 1;
-  font-size: u.rem(14);
   padding: u.rem(50) u.rem(25);
+
+  > li {
+      padding: u.rem(20) 0;
+  }
 }
 
-.nav__item--mobile {
-  padding: u.rem(20) 0;
+// Desktop Menu
+
+.ul-desktop {
+    > li {
+        margin-left: u.rem(36);
+    }
 }
 
-// Desktop
 
-.nav__item {
-  font-size: u.rem(12);
-  margin-left: u.rem(30);
-}
-
-.github-icon {
-  font-size: u.rem(16);
-}
+// Media Queries
 
 @media (max-width: 48em) {
-  .header__menu {
+  .menu-desktop {
     display: none;
   }
 }
 
 @media (min-width: 48.0625em) {
-  .header__section {
-    width: 70vw;
-    height: u.rem(40);
-  }
-  .mobile__menu-icon {
+  .menu-icon-moblie {
     display: none;
   }
 }
