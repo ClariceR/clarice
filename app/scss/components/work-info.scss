@@ -1,10 +1,13 @@
 @use '../util/' as u;
 
 .work {
-  background-image: url("../../../assets/work-bkg-big.svg");
-  width: 100vw;
-  background-size: cover;
-  background-repeat: no-repeat;
+    max-width: 100vw;
+    height: 600px;
+    background-image: url('../../../assets/work-bkg-big.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 
 .work-icon {

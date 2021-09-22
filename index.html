@@ -24,9 +24,9 @@
     <title>Clarice</title>
   </head>
 
-  <body class="b-r grid grid--place-center">
-    <div class="app-wrapper content-width content-height">
-      <header class="header grid grid--align-c-end">
+  <body>
+    <div class="content-wrapper b-r grid grid--place-center">
+      <header class="header grid grid--align-c-end content-width b-y">
         <div class="header__menu flex flex-align-end flex--just-apart">
           <a href="/">
             <object
@@ -79,9 +79,11 @@
           </ul>
         </nav>
       </header>
+    </div>
 
-      <main class="grid">
-        <section class="landing grid">
+    <main>
+      <div class="content-wrapper b-r grid grid--place-center">
+        <section class="landing grid content-width b-b">
           <div class="landing__img-container grid">
             <object
               class="landing__svg"
@@ -103,13 +105,20 @@
             >
           </div>
         </section>
+      </div>
 
-        <section class="work"></section>
-        <section class="projects"></section>
-        <section class="about"></section>
-      </main>
+      <section class="work b-g grid">
+          <h2>What I do</h2>
+          <object
+                    class="work-icon development-icon"
+                    data="./assets/catcomp-icon.svg"
+                    type="image/svg+xml"
+                  ></object>
+      </section>
+      <section class="projects"></section>
+      <section class="about"></section>
+    </main>
 
-      <footer></footer>
-    </div>
+    <footer></footer>
   </body>
 </html>
