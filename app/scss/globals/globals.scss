@@ -42,12 +42,16 @@
     place-items: center;
 }
 
-.grid--align-content-center {
+.grid--align-c-center {
     align-content: center;
 }
 
-.grid--end {
+.grid--align-c-end {
     align-content: end;
+}
+
+.grid--align-c-between {
+    align-content: space-between;
 }
 
 .grid--just-i-right {
