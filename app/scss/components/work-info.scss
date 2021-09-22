@@ -1,0 +1,12 @@
+@use '../util/' as u;
+
+.work {
+  background-image: url("../../../assets/work-bkg-big.svg");
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.work-icon {
+    width: u.rem(140);
+}
