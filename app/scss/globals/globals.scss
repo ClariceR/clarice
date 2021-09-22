@@ -78,6 +78,6 @@
     text-transform: uppercase;
 }
 
-// li {
-//     font-size: u.rem(16);
+// h1 {
+//   font-size: clamp(var(--text-size-large), calc(var(--text-size-base) * var(--text-size-scaler)), var(--text-size-huge));
 // }

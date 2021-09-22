@@ -5,16 +5,22 @@
     --fontBody: 'Montserrat', sans-serif;
 
 
-    --font-body-sm: u.rem(14);
-    --font-body-m: u.rem(16);
-    --font-body-l: u.rem(18);
+    --font-body-sm: 14px;
+    --font-body-m: 16px;
+    --font-body-l: 18px;
 
-    --font-subtitle-mob: u.rem(20);
-    --font-subtitle-desk: u.rem(24);
+    --font-subtitle-mob: 20px;
+    --font-subtitle-desk: 24px;
 
-    --font-title-mob: u.rem(28);
-    --font-title-desk: u.rem(32);
+    --font-title-mob: 28px;
+    --font-title-desk: 32px;
 
-    --font-display-mob: u.rem(34);
-    --font-display-desk: u.rem(52);
+    --font-display-mob: 34px;
+    --font-display-desk: 52px;
+
+
+    // --text-size-large: 34px;
+    // --text-size-base: 18px;
+    // --text-size-scaler: 10vw;
+    // --text-size-huge: 52px;
 }
