@@ -2,6 +2,7 @@
 
 .landing {
   height: 80vh;
+  width: 70vw;
   justify-self: center;
 }
 
@@ -38,7 +39,6 @@
     grid-template-columns: 3fr 2fr;
     grid-template-areas: "left right";
     gap: u.rem(20);
-    width: 70vw;
   }
   .landing__img-container {
     grid-area: right;
