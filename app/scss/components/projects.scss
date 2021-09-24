@@ -50,6 +50,7 @@
 @media (min-width: 58em) {
   .projects-content {
     width: 70vw;
+    margin-bottom: u.rem(100);
   }
   .project-card {
     grid-template-columns: repeat(2, 1fr);

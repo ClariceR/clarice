@@ -1,0 +1,37 @@
+@use '../util/' as u;
+
+.about {
+  justify-content: center;
+}
+
+.about-content {
+  width: 86vw;
+  text-align: center;
+}
+
+.profile-pic {
+  width: u.rem(140);
+  justify-self: center;
+  transform: translateX(10%);
+  margin-top: u.rem(30);
+}
+
+.about-body-copy {
+  margin: u.rem(30) 0;
+  padding: u.rem(20) 0;
+}
+
+@media (min-width: 58em) {
+  .about {
+    margin-bottom: u.rem(60);
+  }
+  .about-content {
+    width: 70vw;
+  }
+  .profile-pic {
+    margin-top: 0;
+  }
+  .about-body-copy {
+    padding: u.rem(20) u.rem(60);
+  }
+}
