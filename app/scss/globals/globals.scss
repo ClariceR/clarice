@@ -106,7 +106,6 @@
 .body-copy {
   font-size: var(--font-body-m);
   line-height: var(--line-height-m);
-  padding: 0 u.rem(20);
 }
 
 @media (min-width: 58em) {
@@ -117,8 +116,5 @@
   }
   .subtitle {
     font-size: var(--font-subtitle-desk);
-  }
-  .body-copy {
-    padding: 0 u.rem(60);
   }
 }

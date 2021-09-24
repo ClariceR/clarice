@@ -23,11 +23,18 @@
     margin-top: u.rem(30);
 }
 
+.work-body-copy {
+    padding: 0 u.rem(20);
+}
+
 @media (min-width: 58em) {
     .work-content {
         width: 70vw
     }
     .work-items {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .work-body-copy {
+        padding: 0 u.rem(60);
     }
 }
