@@ -7,9 +7,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    text-align: center;
     
 }
 
 .work-icon {
     width: u.rem(140);
+    justify-self: center;
+    transform: translateX(10%);
 }

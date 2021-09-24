@@ -25,8 +25,8 @@
   </head>
 
   <body>
-    <div class="content-wrapper b-r grid grid--place-center">
-      <header class="header grid grid--align-c-end content-width b-y">
+    <div class="content-wrapper grid grid--place-center">
+      <header class="header grid grid--align-c-end content-width">
         <div class="header__menu flex flex-align-end flex--just-apart">
           <a href="/">
             <object
@@ -82,8 +82,8 @@
     </div>
 
     <main>
-      <div class="content-wrapper b-r grid grid--place-center">
-        <section class="landing grid content-width b-b">
+      <div class="content-wrapper grid grid--place-center">
+        <section class="landing grid content-width">
           <div class="landing__img-container grid">
             <object
               class="landing__svg"
@@ -107,14 +107,32 @@
         </section>
       </div>
 
-      <section class="work b-g grid">
-          <h2>What I do</h2>
+      <section class="work grid b-b">
+        <h2 class="title">What I do</h2>
+        <div class="development grid">
           <object
-                    class="work-icon development-icon"
-                    data="./assets/catcomp-icon.svg"
-                    type="image/svg+xml"
-                  ></object>
+            class="work-icon"
+            data="./assets/catcomp-icon.svg"
+            type="image/svg+xml"
+          ></object>
+          <h3 class="subtitle">Development</h3>
+          <p class="body-copy">
+            HTML/CSS, JavaScript, Responsive Websites, React Apps
+          </p>
+        </div>
+        <div class="design grid">
+          <object
+            class="work-icon"
+            data="./assets/cupcake-icon.svg"
+            type="image/svg+xml"
+          ></object>
+          <h3 class="subtitle">Design</h3>
+          <p class="body-copy">
+            Landing Pages, User Flow, Wireframing, Mobile and Web App Design
+          </p>
+        </div>
       </section>
+      
       <section class="projects"></section>
       <section class="about"></section>
     </main>
