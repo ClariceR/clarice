@@ -83,9 +83,16 @@
 }
 
 .title {
-    margin-top: u.rem(100);
+    margin-top: u.rem(70);
+    font-size: var(--font-title-mob);
+}
+
+.subtitle {
+    font-size: var(--font-subtitle-mob);
 }
 
 .body-copy {
-    font-size: var(--font-size-s);
+    font-size: var(--font-body-m);
+    line-height: var(--line-height-m);
+    padding: 0 u.rem(20);
 }

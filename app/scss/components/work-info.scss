@@ -6,13 +6,19 @@
     background-image: url('../../../assets/work-bkg-big.svg');
     background-size: auto auto;
     background-repeat: no-repeat;
-    background-position: start;
+    background-position: left;
     text-align: center;
+    gap: u.rem(50);
     
+}
+
+.work-content {
+    gap: u.rem(20);
 }
 
 .work-icon {
     width: u.rem(140);
     justify-self: center;
     transform: translateX(10%);
+    margin-top: u.rem(30);
 }
