@@ -98,6 +98,14 @@
 }
 
 @media (min-width: 58em) {
+    .title {
+    margin-top: u.rem(30);
+    margin-bottom: u.rem(100);
+    font-size: var(--font-title-desk);
+}
+    .subtitle {
+    font-size: var(--font-subtitle-desk);
+}
     .body-copy {
         padding: 0 u.rem(60);
     }
