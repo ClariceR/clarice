@@ -1,35 +1,61 @@
 @use '../util' as u;
 
 .projects {
-    text-align: center;
-    justify-content: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .projects-content {
-    width: 86vw;
+  width: 86vw;
+  gap: u.rem(40);
 }
 
 .project-card {
-    background-color: var(--peach);
-    border-radius: u.rem(15);
-    overflow: hidden;
-    box-shadow: rgba(45, 42, 49, 0.1) 0px 4px 6px -1px,
+  background-color: var(--peach);
+  border-radius: u.rem(15);
+  overflow: hidden;
+  box-shadow: rgba(45, 42, 49, 0.1) 0px 4px 6px -1px,
     rgba(45, 42, 49, 0.06) 0px 2px 4px -1px;
-    grid-template-rows: 1fr;
-    margin-top: u.rem(30);
+  margin-top: u.rem(30);
 }
 
 .card-img {
-    background-image: url('../../../assets/nia-lesedi.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: u.rem(300);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: u.rem(260);
+}
+
+.nia {
+    background-image: url("../../../assets/nia-lesedi.png");
+}
+
+.area {
+    background-image: url("../../../assets/area-layouts-big.png");
 }
 
 .card-text {
-    padding: u.rem(20);
+  padding: u.rem(20);
+  min-height: u.rem(360);
+  align-content: space-between;
 }
 
 .body-copy--link {
-    display: block;
+  display: block;
+}
+
+@media (min-width: 58em) {
+  .projects-content {
+    width: 70vw;
+  }
+  .project-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card-text {
+    text-align: left;
+    padding: u.rem(20) u.rem(60);
+  }
+  .btn-view {
+    justify-self: start;
+    margin-top: u.rem(50);
+  }
 }

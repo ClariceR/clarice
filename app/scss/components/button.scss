@@ -40,6 +40,7 @@ button:-moz-focusring {
   cursor: pointer;
   transform: translateY(0);
   transition: transform 150ms, box-shadow 150ms;
+  display: block;
 }
 
 .btn:hover {
@@ -48,19 +49,13 @@ button:-moz-focusring {
   box-shadow: rgba(45, 42, 49, 0.1) 0px 4px 6px -1px, rgba(45, 42, 49, 0.06) 0px 2px 4px -1px;
 }
 
-.btn-menu {
-  
-}
-
 .btn-talk {
   margin-top: u.rem(20);
-  display: inline-block;
 }
 
 .btn-view {
   justify-self: center;
   margin-top: u.rem(20);
   margin-bottom: u.rem(20);
-  display: inline-block;
 }
 
