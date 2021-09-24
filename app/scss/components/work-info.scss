@@ -1,18 +1,42 @@
 @use '../util/' as u;
 
-.work {
+// .bkg-top {
+//   max-width: 100vw;
+//   height: 170px;
+//   background-image: url("../../../assets/work-top-bkg.svg");
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center;
+// }
+
+.bkg-top {
     max-width: 100vw;
-    height: 600px;
-    background-image: url('../../../assets/work-bkg-big.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    
+}
+
+// .work {
+//   max-width: 100vw;
+//   height: 800px;
+//   // background-image: url('../../../assets/work-bkg-big.svg');
+//   // background-size: cover;
+//   // background-repeat: no-repeat;
+//   // background-position: center;
+//   background-color: var(--peach);
+//   text-align: center;
+// }
+
+.work-content {
+  max-width: 100vw;
+  height: 800px;
+  // background-image: url('../../../assets/work-bkg-big.svg');
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  background-color: var(--peach);
+  text-align: center;
 }
 
 .work-icon {
-    width: u.rem(140);
-    justify-self: center;
-    transform: translateX(10%);
+  width: u.rem(140);
+  justify-self: center;
+  transform: translateX(10%);
 }
