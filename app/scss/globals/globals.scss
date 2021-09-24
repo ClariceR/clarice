@@ -2,111 +2,123 @@
 
 // Helpers
 
-  // borders
-.border { border: 1px solid lightslategray; }
-.b-p { border: 1px solid pink; }
-.b-r { border: 1px solid orangered; }
-.b-b { border: 1px solid lightskyblue; }
-.b-y { border: 1px solid gold; }
-.b-g { border: 1px solid greenyellow; }
+// borders
+.border {
+  border: 1px solid lightslategray;
+}
+.b-p {
+  border: 1px solid pink;
+}
+.b-r {
+  border: 1px solid orangered;
+}
+.b-b {
+  border: 1px solid lightskyblue;
+}
+.b-y {
+  border: 1px solid gold;
+}
+.b-g {
+  border: 1px solid greenyellow;
+}
 
 .hide {
-    display: none;
+  display: none;
 }
 
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 // Content wrappers
 
 .body-width {
-    width: 100vw;
+  width: 100vw;
 }
 
 .content-width {
-    width: 86vw;
+  width: 86vw;
 }
 
 .content-height {
-    height: 100vh;
+  height: 100vh;
 }
 
 // Grids
 
 .grid {
-    display: grid;
+  display: grid;
 }
 
 .grid--place-center {
-    place-items: center;
+  place-items: center;
 }
 
 .grid--align-c-center {
-    align-content: center;
+  align-content: center;
 }
 
 .grid--align-c-end {
-    align-content: end;
+  align-content: end;
 }
 
 .grid--align-c-between {
-    align-content: space-between;
+  align-content: space-between;
 }
 
 .grid--just-i-right {
-    justify-items: right;
+  justify-items: right;
 }
 
 // Flex
 
 .flex--just-apart {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .flex-align-end {
-    align-items: flex-end;
+  align-items: flex-end;
 }
 
 .flex-baseline {
-    align-self: baseline;
+  align-self: baseline;
 }
 
 // Styles
 
 .upper {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .title {
-    margin-top: u.rem(70);
-    font-size: var(--font-title-mob);
+  margin-top: u.rem(70);
+  font-size: var(--font-title-mob);
 }
 
 .subtitle {
-    font-size: var(--font-subtitle-mob);
+  font-size: var(--font-subtitle-mob);
 }
 
 .body-copy {
-    font-size: var(--font-body-m);
-    line-height: var(--line-height-m);
-    padding: 0 u.rem(20);
+  font-size: var(--font-body-m);
+  line-height: var(--line-height-m);
+  padding: 0 u.rem(20);
 }
 
 @media (min-width: 58em) {
-    .title {
+  .title {
     margin-top: u.rem(30);
     margin-bottom: u.rem(100);
     font-size: var(--font-title-desk);
-}
-    .subtitle {
+  }
+  .subtitle {
     font-size: var(--font-subtitle-desk);
-}
-    .body-copy {
-        padding: 0 u.rem(60);
-    }
+  }
+  .body-copy {
+    padding: 0 u.rem(60);
+  }
 }
