@@ -43,7 +43,6 @@
   }
 }
 
-
 // Menu that shows only when mobile menu is clicked
 
 // When opened change the overlay-nav-menu-mobile:
@@ -70,18 +69,17 @@
   padding: u.rem(50) u.rem(25);
 
   > li {
-      padding: u.rem(20) 0;
+    padding: u.rem(20) 0;
   }
 }
 
 // Desktop Menu
 
 .ul-desktop {
-    > li {
-        margin-left: u.rem(36);
-    }
+  > li {
+    margin-left: u.rem(36);
+  }
 }
-
 
 // Media Queries
 
@@ -96,7 +94,7 @@
     display: none;
   }
   .header {
-  height: u.rem(50);
-  margin-bottom: u.rem(40);
-}
+    height: u.rem(50);
+    margin-bottom: u.rem(40);
+  }
 }

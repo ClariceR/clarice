@@ -1,0 +1,30 @@
+@use '../util' as u;
+
+.footer {
+    justify-content: center;
+    max-width: 100vw;
+    background-image: url('../../../assets/contact-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-social {
+    justify-content: center;
+    gap: u.rem(14);
+}
+
+.logo {
+  display: block;
+  width: u.rem(65);
+}
+
+.ul-footer {
+  > li {
+    margin-left: u.rem(30);
+  }
+  font-size: var(--font-body-s);
+}

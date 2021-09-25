@@ -8,6 +8,7 @@ button {
   overflow: visible; /* Edge hides overflow */
   text-transform: none; /* Firefox inherits text-transform */
   -webkit-appearance: button; /* Safari otherwise prevents some styles */
+  color: var(--petal);
 }
 
 button::-moz-focus-inner {
@@ -31,7 +32,7 @@ button:-moz-focusring {
     var(--brightOrange) 0%,
     var(--brightPink) 100%
   );
-  color: var(--petal) !important;
+  color: var(--petal);
   line-height: 1.2;
   letter-spacing: 1px;
   white-space: nowrap;
@@ -40,7 +41,7 @@ button:-moz-focusring {
   cursor: pointer;
   transform: translateY(0);
   transition: transform 150ms, box-shadow 150ms;
-  display: block;
+  display: inline-block;
 }
 
 .btn:hover {
@@ -51,11 +52,29 @@ button:-moz-focusring {
 
 .btn-talk {
   margin-top: u.rem(20);
+  justify-self: center;
 }
 
 .btn-view {
   justify-self: center;
   margin-top: u.rem(20);
   margin-bottom: u.rem(20);
+}
+
+.btn-text {
+  color: var(--petal);
+}
+
+.btn-social {
+  height: u.rem(40);
+  width: u.rem(40);
+  padding: u.rem(14);
+  background: var(--petal);
+  color: var(--blackberry);
+  display: block;
+}
+
+.btn-social:hover {
+  color: var(--brightPink);
 }
 
