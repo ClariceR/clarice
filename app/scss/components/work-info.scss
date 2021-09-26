@@ -27,6 +27,9 @@
 }
 
 @media (min-width: 58em) {
+    .work {
+        background-size: cover;
+    }
     .work-content {
         width: 70vw
     }
