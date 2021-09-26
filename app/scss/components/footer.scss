@@ -14,13 +14,16 @@
 
 .contact-social {
   justify-content: center;
-  gap: u.rem(20);
   margin-top: u.rem(30);
 }
 
+.btn-lin {
+  margin-right: u.rem(30);
+}
+
 .footer-nav {
-    margin-top: u.rem(60);
-    margin-bottom: u.rem(10);
+  margin-top: u.rem(60);
+  margin-bottom: u.rem(10);
 }
 
 .logo {
@@ -36,23 +39,20 @@
 }
 
 @media (min-width: 58em) {
-    .contact-container {
-        margin-top: u.rem(50);
-    }
-  .contact-social {
-    gap: u.rem(28);
+  .contact-container {
+    margin-top: u.rem(50);
   }
   .footer-nav {
     margin-top: u.rem(100);
     margin-bottom: u.rem(15);
-}
-.btn-talk--footer {
+  }
+  .btn-talk--footer {
     margin-top: 0;
-}
+  }
   .logo {
-      width: u.rem(80);
+    width: u.rem(80);
   }
   .ul-footer {
-      font-size: var(--font-body-m);
+    font-size: var(--font-body-m);
   }
 }
