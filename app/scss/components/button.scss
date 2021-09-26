@@ -24,7 +24,7 @@ button:-moz-focusring {
 
 .btn {
   font-family: inherit;
-  font-size: u.rem(12);
+  font-size: var(--font-body-s);
   border: 0;
   border-radius: u.rem(50);
   background: linear-gradient(
@@ -68,7 +68,7 @@ button:-moz-focusring {
 .btn-social {
   height: u.rem(40);
   width: u.rem(40);
-  padding: u.rem(14);
+  padding: u.rem(12) u.rem(13);
   background: var(--petal);
   color: var(--blackberry);
   display: block;
@@ -76,5 +76,11 @@ button:-moz-focusring {
 
 .btn-social:hover {
   color: var(--brightPink);
+}
+
+@media (min-width: 58em) {
+  .btn {
+    font-size: var(--font-body-m);
+  }
 }
 

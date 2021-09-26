@@ -1,11 +1,11 @@
 @use '../util' as u;
 
 .footer {
-    justify-content: center;
-    max-width: 100vw;
-    background-image: url('../../../assets/contact-bg.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
+  justify-content: center;
+  max-width: 100vw;
+  background-image: url("../../../assets/footer-bkg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .contact {
@@ -13,8 +13,14 @@
 }
 
 .contact-social {
-    justify-content: center;
-    gap: u.rem(14);
+  justify-content: center;
+  gap: u.rem(20);
+  margin-top: u.rem(30);
+}
+
+.footer-nav {
+    margin-top: u.rem(60);
+    margin-bottom: u.rem(10);
 }
 
 .logo {
@@ -23,8 +29,30 @@
 }
 
 .ul-footer {
+  font-size: var(--font-body-s);
   > li {
     margin-left: u.rem(30);
   }
-  font-size: var(--font-body-s);
+}
+
+@media (min-width: 58em) {
+    .contact-container {
+        margin-top: u.rem(50);
+    }
+  .contact-social {
+    gap: u.rem(28);
+  }
+  .footer-nav {
+    margin-top: u.rem(100);
+    margin-bottom: u.rem(15);
+}
+.btn-talk--footer {
+    margin-top: 0;
+}
+  .logo {
+      width: u.rem(80);
+  }
+  .ul-footer {
+      font-size: var(--font-body-m);
+  }
 }
