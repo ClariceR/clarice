@@ -14,7 +14,6 @@ body {
   background-color: var(--petal);
   color: var(--blackberry);
   font-family: var(--fontBody);
-  // overflow-x:hidden;
 }
 
 h1,
@@ -52,78 +51,3 @@ object {
 address {
   all: inherit;
 }
-
-// .app {
-//   width: 100vw;
-// }
-
-// .grid--only {
-//   display: grid;
-// }
-
-// .grid {
-//   display: grid;
-//   align-items: center;
-//   justify-content: center;
-// }
-
-// .grid--start {
-//   display: grid;
-//   align-items: start;
-//   justify-content: center;
-// }
-
-// .grid--evenly {
-//   display: grid;
-//   align-content: space-evenly;
-// }
-
-// .grid-right {
-//   justify-content: right;
-// }
-
-// .grid--menu {
-//   grid-template-columns: repeat(3, 1fr);
-//   justify-content: space-between;
-//   align-content: end;
-// }
-
-// .grid--two-columns {
-//   grid-template-columns: repeat(2, 1fr);
-// }
-
-// .flex {
-//   display: flex;
-// }
-
-// .flex--apart {
-//   justify-content: space-between;
-// }
-
-// .flex--center {
-//   align-items: center;
-// }
-
-// .flex--bottom {
-//   align-items: flex-end;
-// }
-
-// .flex--baseline {
-//   align-items: baseline;
-// }
-
-// .upper {
-//   text-transform: uppercase;
-// }
-
-// .rounded-corners {
-//   border-radius: 50px;
-// }
-
-// .border {
-//   border: 1px solid orangered;
-// }
-
-// .hide {
-//   display: none;
-// }
