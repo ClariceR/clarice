@@ -65,9 +65,9 @@
             class="overlay-menu-mobile upper grid grid--align-c-center"
           >
             <li><a href="./">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a id="projects-link" href="#projects">Projects</a></li>
+            <li><a id="about-link" href="#about">About</a></li>
+            <li><a id="contact-link" href="#contact">Contact</a></li>
             <li>
               <a
                 id="github-link"
@@ -83,7 +83,7 @@
 
     <main>
       <div class="content-wrapper grid grid--place-center">
-        <section class="landing grid content-width">
+        <section id="landing" class="landing grid content-width">
           <div class="landing__img-container grid">
             <object
               class="landing__svg"
@@ -138,7 +138,7 @@
         </div>
       </section>
 
-      <section class="projects grid">
+      <section id="projects" class="projects grid">
         <h2 class="title">Latest Projects</h2>
         <div class="projects-content grid">
           <article class="project-card grid">
@@ -216,7 +216,7 @@
         </div>
       </section>
 
-      <section class="about grid">
+      <section id="about" class="about grid">
         <div class="about-content grid">
           <h2 class="title">About Clarice</h2>
           <object
@@ -236,7 +236,7 @@
 
     <footer class="footer grid">
       <div class="contact-container content-width">
-        <address class="contact">
+        <address id="contact" class="contact">
           <h2 class="title">Get in Touch</h2>
           <a href="mailto: claricerdallorto@gmail.com" class="btn btn-talk btn-talk--footer upper"
             >Let's Talk</a
@@ -247,7 +247,7 @@
           </div>
         </address>
         <nav class="footer-nav flex flex--just-apart">
-          <a href="./">
+          <a href="#landing">
             <object
               class="logo"
               data="./assets/logo-clarice.svg"
